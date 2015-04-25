@@ -1,0 +1,23 @@
+body {
+    background-color: lavender;
+}
+
+.wrapper_central {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    float: none;
+}
+
+.actions {
+    width: 100%;
+    margin-top: 0;
+}
+
+nav {
+    float: left;
+    position: static;
+    margin-top: -.5rem;
+}

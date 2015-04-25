@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box; /* width = boders incluses */
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header, nav, aside, section, footer {
+    display: block;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,67 @@
+/* LAYOUT */
+
+.wrapper_full {
+    background-color: navy;
+}
+
+.wrapper_central {
+    background-color: teal;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+.bg_banner {
+    background-image: url( "../assets/imgs/bg_banner.jpg" );
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.main {
+    margin-top: 200px;
+    background-color: olivedrab;
+    width: 60%;
+    float: left;
+}
+
+.actions {
+    margin-top: 50px;
+    background-color: beige;
+    list-style: none;
+    width: 40%;
+    overflow: hidden;
+}
+
+.site_title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: "code_pro_demoregular";
+}
+
+nav {
+    background-color: orange;
+    position: relative;
+    top: .5rem;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 2rem;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: 'code_pro_demoregular';
+    src: url('../assets/fonts/Code_Pro_Demo-webfont.eot');
+    src: url('../assets/fonts/Code_Pro_Demo-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Code_Pro_Demo-webfont.woff2') format('woff2'),
+    url('../assets/fonts/Code_Pro_Demo-webfont.woff') format('woff'),
+    url('../assets/fonts/Code_Pro_Demo-webfont.ttf') format('truetype'),
+    url('../assets/fonts/Code_Pro_Demo-webfont.svg#code_pro_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
