@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* my new Feature ! */
+
 size_t my_strlen(const char *s)
 {
   char *p = s;
