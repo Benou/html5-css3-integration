@@ -6,6 +6,8 @@
 
 /* a new func ! */
 
+/* my modif here too :O */
+
 size_t my_strlen(const char *s)
 {
   char *p = s;
