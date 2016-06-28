@@ -2,6 +2,8 @@
 
 /* my new Feature ! */
 
+/* a new patch */
+
 size_t my_strlen(const char *s)
 {
   char *p = s;
